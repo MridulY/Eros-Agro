@@ -14,7 +14,7 @@ const Blog = () => {
     pagination(".blog-post-item", sort, active);
     let list = document.querySelectorAll(".blog-post-item");
     setstate(getPagination(list.length, sort));
-  });
+  }, [sort,active]);
   const [video, setVideo] = useState(false);
   return (
     <Layout>

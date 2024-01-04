@@ -6,7 +6,7 @@ const PreLoader = () => {
     <div className="preloader">
       <div className="loader">
         <Image
-          src="assets/images/loader.png"
+          src="/assets/images/loader.png"
           alt="loader"
           width={800}
           height={700}
