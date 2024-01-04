@@ -69,7 +69,7 @@ const Header1 = () => {
                     <li className="user-btn">
                       <Link href="https://www.google.com/maps?ll=30.951114,75.890767&z=14&t=m&hl=en&gl=US&mapclient=embed&cid=11317575915408435423">
                         <a className="icon">
-                          <i className="flaticon-avatar"></i>
+                          <i className="ti-location-pin"></i>
                         </a>
                       </Link>
                     </li>

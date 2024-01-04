@@ -34,11 +34,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/listing-details-1.js"
-    ],
-    "/spices": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/spices.js"
     ]
   },
   "ampFirstPages": []
