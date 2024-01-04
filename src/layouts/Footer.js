@@ -81,18 +81,18 @@ const Footer = () => {
                           </a>
                         </span>
                         <span>
-                            <a href="export@erosagro.com">
-                              <i className="ti-email">
-                                <h6 className="title">export@erosagro.com</h6>
-                              </i>
-                            </a>
+                          <a href="export@erosagro.com">
+                            <i className="ti-email">
+                              <h6 className="title">export@erosagro.com</h6>
+                            </i>
+                          </a>
                         </span>
                         <span>
-                            <a href="www.erosagro.com">
-                              <i className="ti-link">
-                                <h6 className="title">www.erosagro.com</h6>
-                              </i>
-                            </a>
+                          <a href="www.erosagro.com">
+                            <i className="ti-link">
+                              <h6 className="title">www.erosagro.com</h6>
+                            </i>
+                          </a>
                         </span>
                       </div>
                     </li>
@@ -145,7 +145,8 @@ const Footer = () => {
                       <button
                         className="main-btn"
                         onClick={() =>
-                          (window.location.href = "https://web.whatsapp.com/")
+                          (window.location.href =
+                            "https://wa.me/+919914826464")
                         }
                       >
                         Message

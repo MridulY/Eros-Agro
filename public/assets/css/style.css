@@ -1286,7 +1286,7 @@ button {
 .hero-wrapper-one:after {
   width: 43.5%;
   right: 0;
-  background: url(../images/spices/blended_spices.png) no-repeat center center;
+  background: url(../images/spices/back.jpeg) no-repeat center center;
   background-size: cover;
 }
 @media (max-width: 991px) {
