@@ -35,11 +35,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/listing-details-1.js"
     ],
-    "/listing-map": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/listing-map.js"
-    ],
     "/spices": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
