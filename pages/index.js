@@ -467,7 +467,7 @@ const Index = () => {
                       required
                     />
                     <i className="ti-location-pin"></i>
-                    <Link href="https://mail.google.com/mail/u/0/">
+                    <Link href="https://mail.google.com/mail/u/0/?view=cm&to=export%40erosagro.com&su=Regarding%20Special%20Offers&body=Hello%20there,%0A%0AI%20hope%20this%20email%20finds%20you%20well.%20I%20wanted%20to%20know%20about%20special%20Offers">
                       <a className="main-btn icon-btn">Subscribe</a>
                     </Link>
                   </div>
