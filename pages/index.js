@@ -2,6 +2,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import Slider from "react-slick";
 import dynamic from "next/dynamic";
+import Image from 'next/image';
 
 const Counter = dynamic(() => import("../src/components/Counter"), {
   ssr: false,
@@ -56,9 +57,11 @@ const Index = () => {
                 <div className="category-item category-item-one">
                   <div className="info text-center">
                     <div className="icon">
-                      <img
-                        src="assets/images/logo/pepper.png"
+                      <Image
+                        src="/assets/images/logo/pepper.png"
                         alt="Listing Image"
+                        width={800}
+                        height={700}
                       />
                     </div>
                     <h6>Spices</h6>
@@ -83,9 +86,11 @@ const Index = () => {
                 <div className="category-item category-item-one">
                   <div className="info text-center">
                     <div className="icon">
-                      <img
-                        src="assets/images/logo/herb.png"
+                      <Image
+                        src="/assets/images/logo/herb.png"
                         alt="Listing Image"
+                        width={800}
+                        height={700}
                       />
                     </div>
                     <h6>Herbs</h6>
@@ -110,9 +115,11 @@ const Index = () => {
                 <div className="category-item category-item-one">
                   <div className="info text-center">
                     <div className="icon">
-                      <img
-                        src="assets/images/logo/food.png"
+                      <Image
+                        src="/assets/images/logo/food.png"
                         alt="Listing Image"
+                        width={800}
+                        height={700}
                       />
                     </div>
                     <h6>SuperFoods</h6>
@@ -155,9 +162,11 @@ const Index = () => {
                 data-wow-delay="10ms"
               >
                 <div className="listing-thumbnail">
-                  <img
-                    src="assets/images/spices/whole_spices.png"
+                  <Image
+                    src="/assets/images/spices/whole_spices.png"
                     alt="Listing Image"
+                    width={800}
+                    height={700}
                   />
                   <span className="featured-btn">Featured</span>
                   <div className="thumbnail-meta d-flex justify-content-between align-items-center"></div>
@@ -204,9 +213,11 @@ const Index = () => {
                 data-wow-delay="20ms"
               >
                 <div className="listing-thumbnail">
-                  <img
-                    src="assets/images/spices/oil_seeds.png"
+                  <Image
+                    src="/assets/images/spices/oil_seeds.png"
                     alt="Listing Image"
+                    width={800}
+                    height={700}
                   />
                   <span className="featured-btn">Featured</span>
                   <div className="thumbnail-meta d-flex justify-content-between align-items-center"></div>
@@ -253,9 +264,11 @@ const Index = () => {
                 data-wow-delay="30ms"
               >
                 <div className="listing-thumbnail">
-                  <img
-                    src="assets/images/spices/blended_spices.png"
+                  <Image
+                    src="/assets/images/spices/blended_spices.png"
                     alt="Listing Image"
+                    width={800}
+                    height={700}
                   />
                   <span className="featured-btn">Featured</span>
                   <div className="thumbnail-meta d-flex justify-content-between align-items-center"></div>
@@ -316,7 +329,12 @@ const Index = () => {
           >
             <div className="place-item place-item-one">
               <div className="place-thumbnail">
-                <img src="assets/images/spices/moringa.jpg" alt="Place Image" />
+                <Image
+                  src="/assets/images/spices/moringa.jpg"
+                  alt="Place Image"
+                  width={800}
+                  height={700}
+                />
                 <div className="place-overlay">
                   <div className="place-content text-center">
                     <h3 className="title">Moringa Seeds/Leaf/Powder</h3>
@@ -331,7 +349,12 @@ const Index = () => {
             </div>
             <div className="place-item place-item-one">
               <div className="place-thumbnail">
-                <img src="assets/images/spices/quonina.jpg" alt="Place Image" />
+                <Image
+                  src="/assets/images/spices/quonina.jpg"
+                  alt="Place Image"
+                  width={800}
+                  height={700}
+                />
                 <div className="place-overlay">
                   <div className="place-content text-center">
                     <h3 className="title">Quinoa Seeds</h3>
@@ -346,7 +369,12 @@ const Index = () => {
             </div>
             <div className="place-item place-item-one">
               <div className="place-thumbnail">
-                <img src="assets/images/spices/psyllum.jpg" alt="Place Image" />
+                <Image
+                  src="/assets/images/spices/psyllum.jpg"
+                  alt="Place Image"
+                  width={800}
+                  height={700}
+                />
                 <div className="place-overlay">
                   <div className="place-content text-center">
                     <h3 className="title">Psyllum Husk & Powder</h3>
@@ -361,7 +389,12 @@ const Index = () => {
             </div>
             <div className="place-item place-item-one">
               <div className="place-thumbnail">
-                <img src="assets/images/spices/bay.jpg" alt="Place Image" />
+                <Image
+                  src="/assets/images/spices/bay.jpg"
+                  alt="Place Image"
+                  width={800}
+                  height={700}
+                />
                 <div className="place-overlay">
                   <div className="place-content text-center">
                     <h3 className="title">Bay Leaf</h3>
@@ -465,9 +498,11 @@ const Index = () => {
                 <div className="post-thumbnail">
                   <Link href="/blog-details">
                     <a>
-                      <img
-                        src="assets/images/blog/top_12.jpg"
+                      <Image
+                        src="/assets/images/blog/top_12.jpg"
                         alt="Blog Image"
+                        width={800}
+                        height={700}
                       />
                     </a>
                   </Link>
@@ -510,9 +545,11 @@ const Index = () => {
                 <div className="post-thumbnail">
                   <Link href="/blog-details">
                     <a>
-                      <img
-                        src="assets/images/blog/black_pepper.jpg"
+                      <Image
+                        src="/assets/images/blog/black_pepper.jpg"
                         alt="Blog Image"
+                        width={800}
+                        height={700}
                       />
                     </a>
                   </Link>

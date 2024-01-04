@@ -3,6 +3,7 @@ import React from "react";
 import PageBanner from "../src/components/PageBanner";
 import RangeSlider from "../src/components/RangeSlider";
 import Layout from "../src/layouts/Layout";
+import Image from 'next/image';
 
 const ListingGrid = () => {
   return (
@@ -26,7 +27,6 @@ const ListingGrid = () => {
                       </div>
                     </div>
                   </div>
-                  
                 </div>
               </div>
               <div className="listing-grid-wrapper">
@@ -34,9 +34,11 @@ const ListingGrid = () => {
                   <div className="col-md-6 col-sm-12">
                     <div className="listing-item listing-grid-item-two mb-30 wow fadeInUp">
                       <div className="listing-thumbnail">
-                        <img
-                          src="assets/images/spices/black_cumin.jpg"
+                        <Image
+                          src="/assets/images/spices/black_cumin.jpg"
                           alt="Listing Image"
+                          width={800}
+                          height={700}
                         />
                       </div>
                       <div className="listing-content">
@@ -59,9 +61,11 @@ const ListingGrid = () => {
                   <div className="col-md-6 col-sm-12">
                     <div className="listing-item listing-grid-item-two mb-30 wow fadeInUp">
                       <div className="listing-thumbnail">
-                        <img
-                          src="assets/images/spices/black_mustard.jpg"
+                        <Image
+                          src="/assets/images/spices/black_mustard.jpg"
                           alt="Listing Image"
+                          width={800}
+                          height={700}
                         />
                       </div>
                       <div className="listing-content">
@@ -85,9 +89,11 @@ const ListingGrid = () => {
                   <div className="col-md-6 col-sm-12">
                     <div className="listing-item listing-grid-item-two mb-30 wow fadeInUp">
                       <div className="listing-thumbnail">
-                        <img
-                          src="assets/images/spices/nlack_sesame.jpg"
+                        <Image
+                          src="/assets/images/spices/nlack_sesame.jpg"
                           alt="Listing Image"
+                          width={800}
+                          height={700}
                         />
                       </div>
                       <div className="listing-content">
@@ -111,9 +117,11 @@ const ListingGrid = () => {
                   <div className="col-md-6 col-sm-12">
                     <div className="listing-item listing-grid-item-two mb-30 wow fadeInUp">
                       <div className="listing-thumbnail">
-                        <img
-                          src="assets/images/spices/hulled.png"
+                        <Image
+                          src="/assets/images/spices/hulled.png"
                           alt="Listing Image"
+                          width={800}
+                          height={700}
                         />
                       </div>
                       <div className="listing-content">
@@ -137,9 +145,11 @@ const ListingGrid = () => {
                   <div className="col-md-6 col-sm-12">
                     <div className="listing-item listing-grid-item-two mb-30 wow fadeInUp">
                       <div className="listing-thumbnail">
-                        <img
-                          src="assets/images/spices/natural.jpg"
+                        <Image
+                          src="/assets/images/spices/natural.jpg"
                           alt="Listing Image"
+                          width={800}
+                          height={700}
                         />
                       </div>
                       <div className="listing-content">
@@ -157,13 +167,9 @@ const ListingGrid = () => {
                           botanical name of Natural Sesame Seeds is Sesamum
                           indicum and it belongs to family Pedaliaceae.{" "}
                         </p>
-                        
                       </div>
                     </div>
                   </div>
-                  
-                  
-                  
                 </div>
               </div>
             </div>

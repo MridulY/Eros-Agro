@@ -3,6 +3,7 @@ import React from "react";
 import { Nav, Tab } from "react-bootstrap";
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layouts/Layout";
+import Image from 'image/next';
 
 const ListingMap = () => {
   return (
@@ -33,9 +34,11 @@ const ListingMap = () => {
                   <div className="col-md-6 col-sm-12">
                     <div className="listing-item listing-grid-item-two mb-30 wow fadeInUp">
                       <div className="listing-thumbnail">
-                        <img
-                          src="assets/images/spices/ajwain.jpg"
+                        <Image
+                          src="/assets/images/spices/ajwain.jpg"
                           alt="Listing Image"
+                          width={800}
+                          height={700}
                         />
                       </div>
                       <div className="listing-content">
@@ -59,9 +62,11 @@ const ListingMap = () => {
                   <div className="col-md-6 col-sm-12">
                     <div className="listing-item listing-grid-item-two mb-30 wow fadeInUp">
                       <div className="listing-thumbnail">
-                        <img
-                          src="assets/images/spices/black_pepper.jpg"
+                        <Image
+                          src="/assets/images/spices/black_pepper.jpg"
                           alt="Listing Image"
+                          width={800}
+                          height={700}
                         />
                       </div>
                       <div className="listing-content">
@@ -84,9 +89,11 @@ const ListingMap = () => {
                   <div className="col-md-6 col-sm-12">
                     <div className="listing-item listing-grid-item-two mb-30 wow fadeInUp">
                       <div className="listing-thumbnail">
-                        <img
-                          src="assets/images/spices/cloves.jpg"
+                        <Image
+                          src="/assets/images/spices/cloves.jpg"
                           alt="Listing Image"
+                          width={800}
+                          height={700}
                         />
                       </div>
                       <div className="listing-content">
@@ -110,9 +117,11 @@ const ListingMap = () => {
                   <div className="col-md-6 col-sm-12">
                     <div className="listing-item listing-grid-item-two mb-30 wow fadeInUp">
                       <div className="listing-thumbnail">
-                        <img
-                          src="assets/images/spices/coriander.jpg"
+                        <Image
+                          src="/assets/images/spices/coriander.jpg"
                           alt="Listing Image"
+                          width={800}
+                          height={700}
                         />
                       </div>
                       <div className="listing-content">
@@ -136,9 +145,11 @@ const ListingMap = () => {
                   <div className="col-md-6 col-sm-12">
                     <div className="listing-item listing-grid-item-two mb-30 wow fadeInUp">
                       <div className="listing-thumbnail">
-                        <img
-                          src="assets/images/spices/Cumin.jpg"
+                        <Image
+                          src="/assets/images/spices/Cumin.jpg"
                           alt="Listing Image"
+                          width={800}
+                          height={700}
                         />
                       </div>
                       <div className="listing-content">

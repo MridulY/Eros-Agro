@@ -4,6 +4,7 @@ import React from "react";
 import PageBanner from "../src/components/PageBanner";
 // import RangeSlider from "../src/components/RangeSlider";
 import Layout from "../src/layouts/Layout";
+import Image from 'next/image';
 
 const RangeSlider = dynamic(() => import("../src/components/RangeSlider"), {
   ssr: false,
@@ -48,9 +49,11 @@ const ListingList = () => {
               <div className="listing-list-wrapper">
                 <div className="listing-item listing-list-item-two mb-60 wow fadeInUp">
                   <div className="listing-thumbnail">
-                    <img
-                      src="assets/images/spices/black_pepper_powder.jpg"
+                    <Image
+                      src="/assets/images/spices/black_pepper_powder.jpg"
                       alt="listing Image"
+                      width={800}
+                      height={700}
                     />
                     <div className="thumbnail-meta d-flex justify-content-between align-items-center">
                       <div className="meta-icon-title d-flex align-items-center"></div>
@@ -76,9 +79,11 @@ const ListingList = () => {
                 </div>
                 <div className="listing-item listing-list-item-two mb-60 wow fadeInUp">
                   <div className="listing-thumbnail">
-                    <img
-                      src="assets/images/spices/chilli_flakes.jpg"
+                    <Image
+                      src="/assets/images/spices/chilli_flakes.jpg"
                       alt="listing Image"
+                      width={800}
+                      height={700}
                     />
                     <div className="thumbnail-meta d-flex justify-content-between align-items-center"></div>
                   </div>
@@ -101,9 +106,11 @@ const ListingList = () => {
                 </div>
                 <div className="listing-item listing-list-item-two mb-60 wow fadeInUp">
                   <div className="listing-thumbnail">
-                    <img
-                      src="assets/images/spices/cumin_powder.jpg"
+                    <Image
+                      src="/assets/images/spices/cumin_powder.jpg"
                       alt="listing Image"
+                      width={800}
+                      height={700}
                     />
                     <div className="thumbnail-meta d-flex justify-content-between align-items-center"></div>
                   </div>
@@ -124,9 +131,11 @@ const ListingList = () => {
                 </div>
                 <div className="listing-item listing-list-item-two mb-60 wow fadeInUp">
                   <div className="listing-thumbnail">
-                    <img
-                      src="assets/images/spices/curry_powder.jpg"
+                    <Image
+                      src="/assets/images/spices/curry_powder.jpg"
                       alt="listing Image"
+                      width={800}
+                      height={700}
                     />
                     <div className="thumbnail-meta d-flex justify-content-between align-items-center"></div>
                   </div>
@@ -147,9 +156,11 @@ const ListingList = () => {
                 </div>
                 <div className="listing-item listing-list-item-two mb-60 wow fadeInUp">
                   <div className="listing-thumbnail">
-                    <img
-                      src="assets/images/spices/red_chilli.jpg"
+                    <Image
+                      src="/assets/images/spices/red_chilli.jpg"
                       alt="listing Image"
+                      width={800}
+                      height={700}
                     />
                     <div className="thumbnail-meta d-flex justify-content-between align-items-center"></div>
                   </div>
@@ -170,9 +181,11 @@ const ListingList = () => {
                 </div>
                 <div className="listing-item listing-list-item-two mb-60 wow fadeInUp">
                   <div className="listing-thumbnail">
-                    <img
-                      src="assets/images/spices/turmeric.jpg"
+                    <Image
+                      src="/assets/images/spices/turmeric.jpg"
                       alt="listing Image"
+                      width={800}
+                      height={700}
                     />
                     <div className="thumbnail-meta d-flex justify-content-between align-items-center"></div>
                   </div>

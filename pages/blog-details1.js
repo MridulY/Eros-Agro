@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layouts/Layout";
+import Image from 'next/image';
 
 const BlogDetails1 = () => {
   return (
@@ -14,9 +15,11 @@ const BlogDetails1 = () => {
               <div className="blog-details-wrapper mb-30 wow fadeInUp">
                 <div className="blog-post-item">
                   <div className="post-thumbnail">
-                    <img
-                      src="assets/images/spices/black_pepper.jpg"
+                    <Image
+                      src="/assets/images/spices/black_pepper.jpg"
                       alt="Blog Image"
+                      width={800}
+                      height={500}
                     />
                   </div>
                   <div className="entry-content">
@@ -235,7 +238,6 @@ const BlogDetails1 = () => {
                 </div>
               </div>
             </div>
-            
           </div>
         </div>
       </section>

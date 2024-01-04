@@ -1,10 +1,16 @@
 import React from "react";
+import Image from 'next/image';
 
 const PreLoader = () => {
   return (
     <div className="preloader">
       <div className="loader">
-        <img src="assets/images/loader.png" alt="loader" />
+        <Image
+          src="assets/images/loader.png"
+          alt="loader"
+          width={800}
+          height={700}
+        />
       </div>
     </div>
   );

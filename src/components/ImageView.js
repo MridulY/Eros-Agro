@@ -1,4 +1,5 @@
 import React, { Fragment, useEffect, useRef, useState } from "react";
+import Image from 'next/image';
 
 let useClickOutside = (handler) => {
   let domNode = useRef();
@@ -45,7 +46,7 @@ const ImgViews = ({ close, src }) => {
               >
                 ×
               </button>
-              <img className="mfp-img" src={src} />
+              <Image className="mfp-img" src={src} alt="ImageView" width={800} height={700} />
             </div>
           </div>
           <div className="mfp-preloader">Loading...</div>

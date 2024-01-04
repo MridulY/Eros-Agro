@@ -3,6 +3,7 @@ import React from "react";
 import PageBanner from "../src/components/PageBanner";
 import TestimoinalSlider from "../src/components/Slider/TestimonialSlider";
 import Layout from "../src/layouts/Layout";
+import Image from 'next/image';
 
 const About = () => {
   return (
@@ -15,9 +16,11 @@ const About = () => {
               <div className="blog-details-wrapper mb-30 wow fadeInUp">
                 <div className="blog-post-item">
                   <div className="post-thumbnail">
-                    <img
-                      src="assets/images/spices/whole_spices.png"
+                    <Image
+                      src="/assets/images/spices/whole_spices.png"
                       alt="Blog Image"
+                      width={800}
+                      height={500}
                     />
                   </div>
                   <div className="entry-content">
@@ -92,9 +95,6 @@ const About = () => {
                     </p>
                   </div>
                 </div>
-                
-
-                
               </div>
             </div>
             <div className="col-lg-4">

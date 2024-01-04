@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layouts/Layout";
+import Image from 'next/image';
 
 const BlogDetails = () => {
   return (
@@ -14,9 +15,11 @@ const BlogDetails = () => {
               <div className="blog-details-wrapper mb-30 wow fadeInUp">
                 <div className="blog-post-item">
                   <div className="post-thumbnail">
-                    <img
-                      src="assets/images/spices/top_12.jpg"
+                    <Image
+                      src="/assets/images/spices/top_12.jpg"
                       alt="Blog Image"
+                      width={800}
+                      height={500}
                     />
                   </div>
                   <div className="entry-content">
@@ -142,21 +145,16 @@ const BlogDetails = () => {
                       measure of coriander seeds might actually be great for
                       your wellbeing.
                     </h5>
-                    
                   </div>
                 </div>
                 <div className="post-navigation">
                   <div className="row">
-                    
                     <div className="col-md-6">
-                      <div className="next-post post-nav-item">
-                        
-                        
-                      </div>
+                      <div className="next-post post-nav-item"></div>
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="comments-respond">
                   <h4 className="comments-heading mb-20">Write a Review</h4>
                   <form onSubmit={(e) => e.preventDefault()}>
@@ -222,10 +220,6 @@ const BlogDetails = () => {
             </div>
             <div className="col-lg-4">
               <div className="sidebar-widget-area">
-                
-                
-                
-                
                 <div className="widget tag-cloud-widget mb-30 wow fadeInUp">
                   <h4 className="widget-title">Popular Tag</h4>
                   <a href="#">Blended Spices</a>

@@ -4,6 +4,7 @@ import PageBanner from "../src/components/PageBanner";
 import VideoPopup from "../src/components/VideoPopup";
 import Layout from "../src/layouts/Layout";
 import { getPagination, pagination } from "../src/utils";
+import Image from 'next/image';
 
 const Blog = () => {
   let sort = 2;
@@ -13,7 +14,7 @@ const Blog = () => {
     pagination(".blog-post-item", sort, active);
     let list = document.querySelectorAll(".blog-post-item");
     setstate(getPagination(list.length, sort));
-  }, [active]);
+  });
   const [video, setVideo] = useState(false);
   return (
     <Layout>
@@ -28,9 +29,11 @@ const Blog = () => {
                   <div className="post-thumbnail">
                     <Link href="/blog-details">
                       <a>
-                        <img
-                          src="assets/images/blog/top_12.jpg"
+                        <Image
+                          src="/assets/images/blog/top_12.jpg"
                           alt="Blog Image"
+                          width={800}
+                          height={500}
                         />
                       </a>
                     </Link>
@@ -80,9 +83,11 @@ const Blog = () => {
                   <div className="post-thumbnail">
                     <Link href="/blog-details">
                       <a>
-                        <img
-                          src="assets/images/blog/black_pepper.jpg"
+                        <Image
+                          src="/assets/images/blog/black_pepper.jpg"
                           alt="Blog Image"
+                          width={800}
+                          height={500}
                         />
                       </a>
                     </Link>
@@ -128,9 +133,7 @@ const Blog = () => {
                     </a>
                   </div>
                 </div>
-                
-                
-                
+
                 <div className="fioxen-pagination text-center wow fadeInUp">
                   <ul className="pagination-list">
                     <li>
@@ -176,7 +179,7 @@ const Blog = () => {
                 </div>
               </div>
             </div>
-            </div>
+          </div>
         </div>
       </section>
     </Layout>

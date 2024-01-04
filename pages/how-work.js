@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import PageBanner from "../src/components/PageBanner";
 import VideoPopup from "../src/components/VideoPopup";
 import Layout from "../src/layouts/Layout";
+import Image from 'next/image';
 
 const HowWork = () => {
   const [video, setVideo] = useState(false);
@@ -75,9 +76,11 @@ const HowWork = () => {
                   </div>
                   <div className="col-lg-6">
                     <div className="process-img wow fadeInRight">
-                      <img
-                        src="assets/images/elements/step-1.jpg"
+                      <Image
+                        src="/assets/images/elements/step-1.jpg"
                         alt="process Image"
+                        width={800}
+                        height={500}
                       />
                     </div>
                   </div>
@@ -108,9 +111,11 @@ const HowWork = () => {
                   </div>
                   <div className="col-lg-6">
                     <div className="process-img wow fadeInLeft">
-                      <img
-                        src="assets/images/elements/step-2.jpg"
+                      <Image
+                        src="/assets/images/elements/step-2.jpg"
                         alt="process Image"
+                        width={800}
+                        height={500}
                       />
                     </div>
                   </div>
@@ -141,10 +146,12 @@ const HowWork = () => {
                   </div>
                   <div className="col-lg-6">
                     <div className="process-img wow fadeInRight">
-                      <img
-                        src="assets/images/elements/step-3.jpg"
-                        alt="process Image"
-                      />
+                      <Image
+                      src="/assets/images/elements/step-2.jpg"
+                      alt="process Image"
+                      width={800}
+                      height={500}
+                    />
                     </div>
                   </div>
                 </div>

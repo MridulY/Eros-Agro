@@ -4,6 +4,7 @@ import { Accordion } from "react-bootstrap";
 import ListingDetailsRight from "../src/components/ListingDetailsRight";
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layouts/Layout";
+import Image from 'next/image';
 
 const ListingDetails1 = () => {
   const [accordionActive, setAccordionActive] = useState("collapseOne");
@@ -38,9 +39,11 @@ const ListingDetails1 = () => {
                   <div className="col-md-6 col-sm-12">
                     <div className="listing-item listing-grid-item-two mb-30 wow fadeInUp">
                       <div className="listing-thumbnail">
-                        <img
-                          src="assets/images/spices/bay.jpg"
+                        <Image
+                          src="/assets/images/spices/bay.jpg"
                           alt="Listing Image"
+                          width={800}
+                          height={500}
                         />
                       </div>
                       <div className="listing-content">
@@ -64,9 +67,11 @@ const ListingDetails1 = () => {
                   <div className="col-md-6 col-sm-12">
                     <div className="listing-item listing-grid-item-two mb-30 wow fadeInUp">
                       <div className="listing-thumbnail">
-                        <img
-                          src="assets/images/spices/chickpeas.jpg"
+                        <Image
+                          src="/assets/images/spices/chickpeas.jpg"
                           alt="Listing Image"
+                          width={800}
+                          height={500}
                         />
                       </div>
                       <div className="listing-content">
@@ -92,9 +97,11 @@ const ListingDetails1 = () => {
                   <div className="col-md-6 col-sm-12">
                     <div className="listing-item listing-grid-item-two mb-30 wow fadeInUp">
                       <div className="listing-thumbnail">
-                        <img
-                          src="assets/images/spices/green_millet.jpg"
+                        <Image
+                          src="/assets/images/spices/green_millet.jpg"
                           alt="Listing Image"
+                          width={800}
+                          height={500}
                         />
                       </div>
                       <div className="listing-content">
@@ -119,9 +126,11 @@ const ListingDetails1 = () => {
                   <div className="col-md-6 col-sm-12">
                     <div className="listing-item listing-grid-item-two mb-30 wow fadeInUp">
                       <div className="listing-thumbnail">
-                        <img
-                          src="assets/images/spices/moringa.jpg"
+                        <Image
+                          src="/assets/images/spices/moringa.jpg"
                           alt="Listing Image"
+                          width={800}
+                          height={500}
                         />
                       </div>
                       <div className="listing-content">
@@ -150,9 +159,11 @@ const ListingDetails1 = () => {
                   <div className="col-md-6 col-sm-12">
                     <div className="listing-item listing-grid-item-two mb-30 wow fadeInUp">
                       <div className="listing-thumbnail">
-                        <img
-                          src="assets/images/spices/psyllum.jpg"
+                        <Image
+                          src="/assets/images/spices/psyllum.jpg"
                           alt="Listing Image"
+                          width={800}
+                          height={500}
                         />
                       </div>
                       <div className="listing-content">
