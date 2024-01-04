@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import Header from "./headers/Header";
 import MobileMenu from "./MobileMenu";
 import ScrollTop from "./ScrollTop";
+import WhatsAppChat from "./WhatsAppChat"
 
 const Layout = ({ children, header }) => {
   useEffect(() => {
@@ -20,7 +21,7 @@ const Layout = ({ children, header }) => {
       <MobileMenu />
       <Header header={header} />
       {children} <Footer />
-      <ScrollTop />
+      <WhatsAppChat />
     </Fragment>
   );
 };
