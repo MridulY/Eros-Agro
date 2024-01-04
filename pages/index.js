@@ -66,7 +66,7 @@ const Index = () => {
                     </div>
                     <h6>Spices</h6>
                   </div>
-                  <Link href="listing-list">
+                  <Link href="spices">
                     <a className="category-btn">
                       <i className="ti-arrow-right"></i>
                     </a>

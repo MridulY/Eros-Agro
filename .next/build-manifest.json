@@ -35,20 +35,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/listing-details-1.js"
     ],
-    "/listing-grid": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/listing-grid.js"
-    ],
-    "/listing-list": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/listing-list.js"
-    ],
     "/listing-map": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/listing-map.js"
+    ],
+    "/spices": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/spices.js"
     ]
   },
   "ampFirstPages": []
