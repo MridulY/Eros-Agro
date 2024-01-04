@@ -43,7 +43,7 @@ const ListingGrid = () => {
                       </div>
                       <div className="listing-content">
                         <h3 className="title">
-                          <Link href="/listing-details-1">
+                          <Link href="/spices/blackCumin">
                             <a>Black Cumin/Kalonji</a>
                           </Link>
                         </h3>
@@ -70,7 +70,7 @@ const ListingGrid = () => {
                       </div>
                       <div className="listing-content">
                         <h3 className="title">
-                          <Link href="/listing-details-1">
+                          <Link href="/blackMustard">
                             <a>Black Mustard Seeds</a>
                           </Link>
                         </h3>
@@ -98,7 +98,7 @@ const ListingGrid = () => {
                       </div>
                       <div className="listing-content">
                         <h3 className="title">
-                          <Link href="/listing-details-1">
+                          <Link href="/blackSesame">
                             <a>Black Sesame Seeds</a>
                           </Link>
                         </h3>
@@ -126,7 +126,7 @@ const ListingGrid = () => {
                       </div>
                       <div className="listing-content">
                         <h3 className="title">
-                          <Link href="/listing-details-1">
+                          <Link href="/hulledSesame">
                             <a>Hulled Sesame Seeds</a>
                           </Link>
                         </h3>
@@ -154,7 +154,7 @@ const ListingGrid = () => {
                       </div>
                       <div className="listing-content">
                         <h3 className="title">
-                          <Link href="/listing-details-1">
+                          <Link href="/naturalSesame">
                             <a>Natural Sesame Seeds</a>
                           </Link>
                         </h3>

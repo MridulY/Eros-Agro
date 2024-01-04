@@ -61,7 +61,7 @@ const ListingList = () => {
                   </div>
                   <div className="listing-content">
                     <h3 className="title">
-                      <Link href="/listing-details-1">
+                      <Link href="/blackPepper">
                         <a>Black Pepper Powder</a>
                       </Link>
                     </h3>
@@ -89,7 +89,7 @@ const ListingList = () => {
                   </div>
                   <div className="listing-content">
                     <h3 className="title">
-                      <Link href="/listing-details-1">
+                      <Link href="/chilliFlakes">
                         <a>Chilli Flakes</a>
                       </Link>
                     </h3>
@@ -116,7 +116,7 @@ const ListingList = () => {
                   </div>
                   <div className="listing-content">
                     <h3 className="title">
-                      <Link href="/listing-details-1">
+                      <Link href="/listing-list">
                         <a>Cumin Coriander Powder</a>
                       </Link>
                     </h3>
@@ -141,7 +141,7 @@ const ListingList = () => {
                   </div>
                   <div className="listing-content">
                     <h3 className="title">
-                      <Link href="/listing-details-1">
+                      <Link href="/listing-list">
                         <a>Curry Powder/Garam Masala</a>
                       </Link>
                     </h3>
@@ -166,7 +166,7 @@ const ListingList = () => {
                   </div>
                   <div className="listing-content">
                     <h3 className="title">
-                      <Link href="/listing-details-1">
+                      <Link href="/listing-list">
                         <a>Red Chilli Powder</a>
                       </Link>
                     </h3>
@@ -191,7 +191,7 @@ const ListingList = () => {
                   </div>
                   <div className="listing-content">
                     <h3 className="title">
-                      <Link href="/listing-details-1">
+                      <Link href="/listing-list">
                         <a>Turmeric Powder</a>
                       </Link>
                     </h3>

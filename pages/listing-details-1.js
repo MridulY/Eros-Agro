@@ -48,7 +48,7 @@ const ListingDetails1 = () => {
                       </div>
                       <div className="listing-content">
                         <h3 className="title">
-                          <Link href="/listing-details-1">
+                          <Link href="/bayLeaf">
                             <a>Bay Leafs</a>
                           </Link>
                         </h3>
@@ -135,7 +135,7 @@ const ListingDetails1 = () => {
                       </div>
                       <div className="listing-content">
                         <h3 className="title">
-                          <Link href="/listing-details-1">
+                          <Link href="/moringa">
                             <a>Moringa Seeds/Leafs/Powder</a>
                           </Link>
                         </h3>
@@ -168,7 +168,7 @@ const ListingDetails1 = () => {
                       </div>
                       <div className="listing-content">
                         <h3 className="title">
-                          <Link href="/listing-details-1">
+                          <Link href="/psyllum">
                             <a>Psyllum Husk & Powder</a>
                           </Link>
                         </h3>

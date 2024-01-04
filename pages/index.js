@@ -66,7 +66,7 @@ const Index = () => {
                     </div>
                     <h6>Spices</h6>
                   </div>
-                  <Link href="/">
+                  <Link href="listing-list">
                     <a className="category-btn">
                       <i className="ti-arrow-right"></i>
                     </a>
@@ -173,7 +173,7 @@ const Index = () => {
                 </div>
                 <div className="listing-content">
                   <h3 className="title">
-                    <Link href="/listing-details-1">
+                    <Link href="/listing-map">
                       <a>Whole Spices</a>
                     </Link>
                   </h3>
@@ -224,7 +224,7 @@ const Index = () => {
                 </div>
                 <div className="listing-content">
                   <h3 className="title">
-                    <Link href="/listing-details-1">
+                    <Link href="/listing-grid">
                       <a>Oil Seeds</a>
                     </Link>
                   </h3>
@@ -275,7 +275,7 @@ const Index = () => {
                 </div>
                 <div className="listing-content">
                   <h3 className="title">
-                    <Link href="/listing-details-1">
+                    <Link href="/listing-list">
                       <a>Blended Spices</a>
                     </Link>
                   </h3>
@@ -338,7 +338,7 @@ const Index = () => {
                 <div className="place-overlay">
                   <div className="place-content text-center">
                     <h3 className="title">Moringa Seeds/Leaf/Powder</h3>
-                    <Link href="/listing-details-1">
+                    <Link href="/moringa">
                       <a className="arrow-btn">
                         <i className="ti-arrow-right"></i>
                       </a>
@@ -358,7 +358,7 @@ const Index = () => {
                 <div className="place-overlay">
                   <div className="place-content text-center">
                     <h3 className="title">Quinoa Seeds</h3>
-                    <Link href="/listing-details-1">
+                    <Link href="/quinoa">
                       <a className="arrow-btn">
                         <i className="ti-arrow-right"></i>
                       </a>
@@ -378,7 +378,7 @@ const Index = () => {
                 <div className="place-overlay">
                   <div className="place-content text-center">
                     <h3 className="title">Psyllum Husk & Powder</h3>
-                    <Link href="/listing-details-1">
+                    <Link href="/psyllum">
                       <a className="arrow-btn">
                         <i className="ti-arrow-right"></i>
                       </a>
@@ -398,7 +398,7 @@ const Index = () => {
                 <div className="place-overlay">
                   <div className="place-content text-center">
                     <h3 className="title">Bay Leaf</h3>
-                    <Link href="/listing-details-1">
+                    <Link href="/bayLeaf">
                       <a className="arrow-btn">
                         <i className="ti-arrow-right"></i>
                       </a>
