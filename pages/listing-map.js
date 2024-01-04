@@ -3,7 +3,7 @@ import React from "react";
 import { Nav, Tab } from "react-bootstrap";
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layouts/Layout";
-import Image from 'image/next';
+import Image from 'next/image';
 
 const ListingMap = () => {
   return (
