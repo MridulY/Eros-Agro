@@ -16,42 +16,6 @@ const MobileMenu = () => {
           <div className="row">
             <div className="col-md-4">
               <div className="top-social">
-                <ul className="social-link">
-                  <li>
-                    <span>Follow us:</span>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="ti-instagram"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="ti-linkedin"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="ti-google"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="ti-twitter-alt"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="ti-youtube"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="ti-headphone"></i>
-                      <span>: +91 9914826464</span>
-                    </a>
-                  </li>
-                </ul>
               </div>
             </div>
             <div className="col-md-5"></div>
