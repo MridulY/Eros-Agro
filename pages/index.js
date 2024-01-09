@@ -499,7 +499,7 @@ const Index = () => {
                   <Link href="/blog-details">
                     <a>
                       <Image
-                        src="/assets/images/blog/top_12.jpg"
+                        src="/assets/images/spices/top_12.jpg"
                         alt="Blog Image"
                         width={800}
                         height={700}
@@ -543,10 +543,10 @@ const Index = () => {
                 data-wow-delay="20ms"
               >
                 <div className="post-thumbnail">
-                  <Link href="/blog-details">
+                  <Link href="/blog-details1">
                     <a>
                       <Image
-                        src="/assets/images/blog/black_pepper.jpg"
+                        src="/assets/images/spices/black_pepper_powder.jpg"
                         alt="Blog Image"
                         width={800}
                         height={700}
@@ -564,7 +564,7 @@ const Index = () => {
                     <i className="ti-user"></i>Eros_Spices
                   </a>
                   <h3 className="title">
-                    <Link href="/blog-details">
+                    <Link href="/blog-details1">
                       <a>The Black Pepper Benefits: A Healthier You!</a>
                     </Link>
                   </h3>

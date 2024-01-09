@@ -63,7 +63,7 @@ const ListingMap = () => {
                     <div className="listing-item listing-grid-item-two mb-30 wow fadeInUp">
                       <div className="listing-thumbnail">
                         <Image
-                          src="/assets/images/spices/black_pepper.jpg"
+                          src="/assets/images/spices/black_pepper_powder.jpg"
                           alt="Listing Image"
                           width={800}
                           height={700}

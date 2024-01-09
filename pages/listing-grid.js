@@ -118,7 +118,7 @@ const ListingGrid = () => {
                     <div className="listing-item listing-grid-item-two mb-30 wow fadeInUp">
                       <div className="listing-thumbnail">
                         <Image
-                          src="/assets/images/spices/hulled.png"
+                          src="/assets/images/spices/hulled.jpg"
                           alt="Listing Image"
                           width={800}
                           height={700}

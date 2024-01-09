@@ -92,7 +92,7 @@ const ListingList = () => {
                 <div className="listing-item listing-list-item-two mb-60 wow fadeInUp">
                   <div className="listing-thumbnail">
                     <Image
-                      src="/assets/images/spices/cumin_powder.jpg"
+                      src="/assets/images/spices/cumin_powder.jpeg"
                       alt="listing Image"
                       width={800}
                       height={700}

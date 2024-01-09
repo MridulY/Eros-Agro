@@ -47,7 +47,7 @@ const Cumin = () => {
                 <div className="blog-post-item">
                   <div className="post-thumbnail">
                     <Image
-                      src="/assets/images/spices/cumin_powder.jpg"
+                      src="/assets/images/spices/Cumin.jpg"
                       alt="Blog Image"
                       width={800}
                       height={500}

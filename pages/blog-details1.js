@@ -16,7 +16,7 @@ const BlogDetails1 = () => {
                 <div className="blog-post-item">
                   <div className="post-thumbnail">
                     <Image
-                      src="/assets/images/spices/black_pepper.jpg"
+                      src="/assets/images/spices/black_pepper_powder.jpg"
                       alt="Blog Image"
                       width={800}
                       height={500}

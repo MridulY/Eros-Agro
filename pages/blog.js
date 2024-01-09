@@ -30,7 +30,7 @@ const Blog = () => {
                     <Link href="/blog-details">
                       <a>
                         <Image
-                          src="/assets/images/blog/top_12.jpg"
+                          src="/assets/images/spices/top_12.jpg"
                           alt="Blog Image"
                           width={800}
                           height={500}
@@ -84,7 +84,7 @@ const Blog = () => {
                     <Link href="/blog-details">
                       <a>
                         <Image
-                          src="/assets/images/blog/black_pepper.jpg"
+                          src="/assets/images/spices/black_pepper_powder.jpg"
                           alt="Blog Image"
                           width={800}
                           height={500}

@@ -49,7 +49,7 @@ const HulledSesame = () => {
                 <div className="blog-post-item">
                   <div className="post-thumbnail">
                     <Image
-                      src="/assets/images/spices/hulled.png"
+                      src="/assets/images/spices/hulled.jpg"
                       alt="Blog Image"
                       width={800}
                       height={500}
