@@ -30,10 +30,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/listing-details-1": [
+    "/herbs": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/listing-details-1.js"
+      "static/chunks/pages/herbs.js"
+    ],
+    "/superfood": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/superfood.js"
     ]
   },
   "ampFirstPages": []

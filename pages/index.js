@@ -95,7 +95,7 @@ const Index = () => {
                     </div>
                     <h6>Herbs</h6>
                   </div>
-                  <Link href="/">
+                  <Link href="/herbs">
                     <a className="category-btn">
                       <i className="ti-arrow-right"></i>
                     </a>
@@ -124,7 +124,7 @@ const Index = () => {
                     </div>
                     <h6>SuperFoods</h6>
                   </div>
-                  <Link href="/">
+                  <Link href="/superfood">
                     <a className="category-btn">
                       <i className="ti-arrow-right"></i>
                     </a>

@@ -26,22 +26,7 @@ const ListingList = () => {
                   </div>
                   <div className="col-md-4">
                     <div className="filter-right">
-                      <ul className="filter-nav">
-                        <li>
-                          <Link href="/listing-grid">
-                            <a>
-                              <i className="ti-view-grid" />
-                            </a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/listing-list">
-                            <a className="active">
-                              <i className="ti-view-list-alt" />
-                            </a>
-                          </Link>
-                        </li>
-                      </ul>
+                      
                     </div>
                   </div>
                 </div>
@@ -116,7 +101,7 @@ const ListingList = () => {
                   </div>
                   <div className="listing-content">
                     <h3 className="title">
-                      <Link href="/listing-list">
+                      <Link href="/cumin">
                         <a>Cumin Coriander Powder</a>
                       </Link>
                     </h3>
@@ -141,7 +126,7 @@ const ListingList = () => {
                   </div>
                   <div className="listing-content">
                     <h3 className="title">
-                      <Link href="/listing-list">
+                      <Link href="/currypowder">
                         <a>Curry Powder/Garam Masala</a>
                       </Link>
                     </h3>
@@ -166,7 +151,7 @@ const ListingList = () => {
                   </div>
                   <div className="listing-content">
                     <h3 className="title">
-                      <Link href="/listing-list">
+                      <Link href="/redchilli">
                         <a>Red Chilli Powder</a>
                       </Link>
                     </h3>
@@ -191,7 +176,7 @@ const ListingList = () => {
                   </div>
                   <div className="listing-content">
                     <h3 className="title">
-                      <Link href="/listing-list">
+                      <Link href="/turmeric">
                         <a>Turmeric Powder</a>
                       </Link>
                     </h3>

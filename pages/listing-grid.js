@@ -43,7 +43,7 @@ const ListingGrid = () => {
                       </div>
                       <div className="listing-content">
                         <h3 className="title">
-                          <Link href="/spices/blackCumin">
+                          <Link href="/blackCumin">
                             <a>Black Cumin/Kalonji</a>
                           </Link>
                         </h3>

@@ -76,7 +76,7 @@ const ListingDetails1 = () => {
                       </div>
                       <div className="listing-content">
                         <h3 className="title">
-                          <Link href="/listing-details-1">
+                          <Link href="/chickpeas">
                             <a>ChickPeas</a>
                           </Link>
                         </h3>
@@ -106,7 +106,7 @@ const ListingDetails1 = () => {
                       </div>
                       <div className="listing-content">
                         <h3 className="title">
-                          <Link href="/listing-details-1">
+                          <Link href="/greenmillet">
                             <a>Green Millet Bajra</a>
                           </Link>
                         </h3>
