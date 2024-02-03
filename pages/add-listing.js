@@ -3,10 +3,10 @@ import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layouts/Layout";
 
 const AddListing = () => {
-  const handleSubmit = () => {
-    // Trigger Google Form submission
-    document.getElementById("googleForm").submit();
-  };
+  // const handleSubmit = () => {
+  //   // Trigger Google Form submission
+  //   document.getElementById("googleForm").submit();
+  // };
 
   
   return (
@@ -21,14 +21,7 @@ const AddListing = () => {
                   <h4 className="title">Request Product</h4>
                   <div className="row">
                     <div>
-                      <iframe
-                        title="Google Form"
-                        src="https://docs.google.com/forms/d/1VxfZTiu-QToQIjLLGYlbBBfVCxk2YEv2m5hMBYPZy_Q/viewform?embedded=true"
-                        width="640"
-                        height="800"
-                      >
-                        Loading...
-                      </iframe>
+                      
                     </div>
                   </div>
                 </div>
